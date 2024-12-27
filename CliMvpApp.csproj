@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.7.0" /> <!--需要下 dotnet add package Oracle.ManagedDataAccess.Core -->
+    <PackageReference Include="System.Data.sqlClient" Version="4.9.0" /> <!--需要在終端機下 dotnet add package System.Data.sqlClient-->
+  </ItemGroup>
+
+</Project>
