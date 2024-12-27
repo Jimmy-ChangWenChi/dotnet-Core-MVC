@@ -1,0 +1,22 @@
+@model IList<CliMvpApp.Models.DeviceModel>;
+@*<專案名稱.資料夾.類別>*@
+
+@{
+    ViewData["Title"] = "Device Datalog 抓取";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h1>@ViewData["Title"]</h1>
+    
+    <P>測試抓取DATALOG</p>
+    @foreach(var item in Model){ //此Model 並不是@model的, 而是指模型的Model
+        <tr>
+            <td>@item.device</td>
+            <td>@item.mechine</td>
+            <td>@item.cust_no</td>
+            <br>
+        </tr>
+    }
+
+</div>

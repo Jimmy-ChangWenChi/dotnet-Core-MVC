@@ -1,11 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-namespace CliMvpApp.Models;
-
-public class DataLogModel
+namespace CliMvpApp.Models
 {
-    public string customer_code { get; set; }
+    public class DataLogModel
+    {
+        public string customer_code { get; set; }
 
-    public string kind {get;set;}
+        public string kind {get;set;}
 
-    public string MO {get;set;}
+        public string MO {get;set;}
+    }
 }

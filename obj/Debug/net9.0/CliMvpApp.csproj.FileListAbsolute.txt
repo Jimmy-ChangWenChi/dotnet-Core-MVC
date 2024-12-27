@@ -112,3 +112,4 @@ D:\VS2022\CliMvpApp\obj\Debug\net9.0\compressed\86q6382utx-mlv21k5csn.gz
 D:\VS2022\CliMvpApp\obj\Debug\net9.0\compressed\lhjfox9z1f-fzfwtcgms9.gz
 D:\VS2022\CliMvpApp\obj\Debug\net9.0\compressed\o84vkjmd5i-fzfwtcgms9.gz
 D:\VS2022\CliMvpApp\obj\Debug\net9.0\CliMVPAPP.csproj.Up2Date
+D:\VS2022\CliMvpApp\obj\Debug\net9.0\CliMVPAPP.sourcelink.json
